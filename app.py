@@ -26,7 +26,7 @@ def calculate(type):
 
     elif user_input == 3:
         print("Please enter two numbers to multiply:")
-        ans =inputs()
+        ans = inputs()
         return(ans[0] * ans[1])
 
     elif user_input == 4:
@@ -46,7 +46,7 @@ def inputs():
     return [num1, num2]
 
 try:
-    user_input = int(input("Please select one of the following options: \n 1. Add two numbers \n 2. Subtract two numbers \n 3. Multiply two numbers \n 4. Divide two numbers \n"))
+    user_input = int(input("Please select one of the following options: \n 1. Add two numbers \n 2. Subtract two numbers \n 3. Multiply two numbers \n 4. Divide two numbers \nPlease enter a number: "))
 
 except ValueError:
     user_input = 0
